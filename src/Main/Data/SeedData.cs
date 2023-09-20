@@ -10,6 +10,9 @@ public static class SeedData
         using var context = new ProjectsContext(
             serviceProvider.GetRequiredService<
                 DbContextOptions<ProjectsContext>>());
+        
+        context.Database.Migrate();
+        
         // Look for any movies.
         if (context.Project.Any())
         {
