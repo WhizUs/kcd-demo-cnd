@@ -1,5 +1,7 @@
 # KCD Vienna - Cloud Native Development Environment Demo App
 
+<img src="assets/logo.png" alt="drawing" width="500" />
+
 This is a simple MVC app for managing a list of cloud native projects.
 
 ## Run
